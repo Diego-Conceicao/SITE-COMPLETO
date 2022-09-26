@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: large;
+
+    margin: 0 auto;
+}
+
+main{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #ffff89;
+}
+
+.contato form{
+    display: flex;
+    justify-content: center;
+}
+
+.contato-titulo{
+    position: relative;
+    top: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-paragrafo{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #ff9800;
+    background-color: #ffff89;
+}
+.submit {
+    border: 2px solid #ff9800;
+    padding: 10px;
+}
+
+
+.maps h2{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    bottom: 1rem;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #ffff89;
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rodape h5{
+    margin-bottom: 0;
+    color: #712300;
+}
+.icon{
+    align-items: flex-end;
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+    *{  
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+        
+    main{
+            height: 90vh;
+            margin: 0 auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 100%;
+            height: 700px;
+            background-color: #ffff89;
+        }
+    .navbar{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.cervejas{
+    display: flex;
+    margin-top: 100px;
+}
+
+.h1texto{
+    text-align: center;
+    
+}
+
+.larger img{
+    width: 450px;
+    height: 325px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.larger p, .larger h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.pilsen img{
+    width: 450px;
+    height: 325px;
+    padding-right: 25px;
+}
+
+.pilsen p, .pilsen h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.porter img{
+    width: 450px;
+    height: 325px;
+    padding-right: 25px;
+}
+
+.porter p, .porter h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.cervejas{
+    display: flex;
+    margin-top: 100px;
+}
+
+.weiss img{
+    width: 450px;
+    height: 325px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.weiss p, .weiss h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.brownale img{
+    width: 450px;
+    height: 325px;
+    padding-right: 25px;
+}
+
+.brownale p, .brownale h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.redale img{
+    width: 450px;
+    height: 325px;
+    padding-right: 25px;
+}
+
+.redale p, .redale h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+.rodape{
+    width: 800px;
+    background-color: #ffff89;
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rodape h5{
+    margin-bottom: 0;
+    color: #712300;
+}
+.icon{
+    align-items: flex-end;
+}
+
+
+@media (min-width:320px) and (max-width:767px){
+
+    *{  
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+        
+    main{
+            display: flex;
+            flex-direction: column;
+            width: 70vh;
+            height: 48vh;
+            margin: 0 auto;
+            background-color: #ff9800;
+        }
+    .navbar{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+}
