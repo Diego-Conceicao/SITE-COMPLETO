@@ -12,7 +12,7 @@
 
 .h1texto{
     text-align: center;
-    
+
 }
 
 .larger img{
@@ -119,6 +119,7 @@
 }
 
 
+
 @media (min-width:320px) and (max-width:767px){
 
     *{  
@@ -128,16 +129,49 @@
     }
         
     main{
-            display: flex;
-            flex-direction: column;
-            width: 70vh;
-            height: 48vh;
-            margin: 0 auto;
-            background-color: #ff9800;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        width: 70vh;
+        height: 48vh;
+        background-color: #ff9800;
         }
+
     .navbar{
         display: block;
         width: 100%;
         justify-content: center;
+    }
+
+    .cervejas{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .cervejas p, .cervejas h3{
+        text-align: left;
+    }
+
+    .h1texto{
+        text-align: left;
+    }   
+
+    .larger img{
+        padding-left: 0px;
+    }
+
+    .weiss img{
+        padding-left: 0px;
+    }
+
+    .rodape{
+        max-width: 100%;
+        align-items: center;
+    }
+    .rodape h5{
+    font-size: small;
     }
 }
