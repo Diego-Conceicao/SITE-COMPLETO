@@ -89,5 +89,13 @@ input{
         width: 100%;
         justify-content: center;
     }
+    .rodape{
+        max-width: 100%;
+        align-items: center;
+    }
+    .rodape h5{
+    font-size: small;
+    }
 }
+
 
